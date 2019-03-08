@@ -173,9 +173,9 @@ public vermasme : boolean=false;
 
            
          if (this.cajaDetalleFolios.ValidaHuella){
-           if (this.datosGenerales.Activafondeo == 1){
+           //if (this.datosGenerales.Activafondeo == 1){
               this.openCargaHuella();
-            }
+            //}
           }else{
              console.log("Se carga la ventana del fonde si es necesaria");
              if (this.datosGenerales.Activafondeo == 1){
